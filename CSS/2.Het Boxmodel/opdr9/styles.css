@@ -1,0 +1,28 @@
+
+.box {
+    border: 1px solid lightseagreen;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    border-width: 3px;
+    background-color: salmon;
+}
+
+.box1 {
+    background-color:peachpuff;
+    width: 100px;
+    height: 70px;
+    margin: 20px;
+    padding: 50px;
+    border-width: 8px;
+}
+
+.alt {
+    box-sizing: border-box;
+}
+
+.alt2 {
+    box-sizing: content-box;
+    border: 5px solid pink;
+}
