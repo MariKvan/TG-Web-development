@@ -1,0 +1,12 @@
+.art {
+    position: relative;
+    max-width: fit-content;
+ }
+
+ .text {
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 10%;
+    text-align: center;
+ }

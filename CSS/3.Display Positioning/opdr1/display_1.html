@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>opdracht 1</title>
+</head>
+
+<body>
+    <div>
+        <h3>
+            Opdracht 1
+            Welke position properties zijn er? Leg voor elke position property uit wat het doet. Geef ook aan welke
+            default position waarde elementen hebben die je gebruikt in html.
+        </h3>
+
+
+        <ul>
+            <h4>static</h4>
+            <li>het element is gepositioneerd volgens de normale positie van het document<br>
+            dus <strong>top-right-bottom-left en z-index properties hebben geen effect. dit is de standaard waarde</strong></li>
+
+            <h4>relative</h4>
+            <li>het element is gepositioneerd volgens de normale positie van het document
+                vervolgens, verschoven met de top-right-bottom en left properties,
+                op basis van de waardes die je intikt,
+                De verschuiving heeft geen invloed op de positie van andere elementen;
+                 dus de ruimte die voor het element in de pagina-indeling wordt gegeven, 
+                 is hetzelde alsof de positie "static"zou zijn.<br>
+            </li>
+
+            <h4>absolute</h4>
+
+            <li>
+                de element word verwijderd uit de normale document flow, en er word geen ruimte gemaakt
+                voor het element in de pagina layout.
+                het is relatief gepositioneerd ten opzichte van de dichtstbijzijnde gepositioneerde voorouder,
+                indien aanwezig; anders word het relatief geplaatst naar de initial containing block
+
+                de uiteindelijke positie word bepaald door de waarden top-right-bottom-left.
+
+                Deze waarde creëert een nieuwe stapelcontext wanneer de waarde 
+                van z-index niet auto is. De margins van absoluut gepositioneerde 
+                boxes vallen niet samen met andere margins.
+            </li>
+
+            <h4>fixed</h4>
+            <li>The element is removed from the normal document flow, 
+                and no space is created for the element in the page layout.
+                 It is positioned relative to the initial containing block established 
+                 by the viewport, except when one of its ancestors has a transform, perspective, 
+                 or filter property set to something other than none (see the CSS Transforms Spec), 
+                 in which case that ancestor behaves as the containing block. (Note that there are browser inconsistencies with perspective and filter contributing to containing block formation.)
+                  Its final position is determined by the values of top, right, bottom, and left.
+                This value always creates a new stacking context. In printed documents, the element is placed in the same position on every page.
+            </li>
+
+            <h4>sticky</h4>
+            <li>
+                The element is positioned according to the normal flow of the document, and then offset relative to its nearest scrolling ancestor and containing block (nearest block-level ancestor), including table-related elements, based on the values of top, right, bottom, and left. The offset does not affect the position of any other elements.
+This value always creates a new stacking context. Note that a sticky element "sticks" to its nearest ancestor that has a "scrolling mechanism" (created when overflow is hidden, scroll, auto, or overlay), even if that ancestor isn't the nearest actually scrolling ancestor. This effectively inhibits any "sticky" behavior (see the GitHub issue on W3C CSSWG).
+            </li>
+        </ul>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+.manderijn{
+    position: relative;
+    background-color: orange;
+    height:100px;
+    width: 100px;;
+
+}
+
+.Grannysmith{
+    position: absolute;
+    background-color: rgb(43, 223, 43);
+    height: 50px;
+    width:50px;
+    bottom: 25%;
+    left: 25%;
+}
