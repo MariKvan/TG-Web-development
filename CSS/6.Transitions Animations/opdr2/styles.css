@@ -1,0 +1,8 @@
+div {
+color: black;
+}
+  
+  
+div:hover {    
+color: red;
+  }

@@ -1,0 +1,52 @@
+.transition-container{
+  width:600px;
+  border: 1px solid black;
+  padding: 5px;
+
+} 
+
+.transition-container:hover .blok{
+  margin-left: 400px;
+}
+
+.blok {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    font-size: 15px;
+    transition: margin-left 1s linear, border-radius 2s linear;
+    width: 100px;
+    height: 100px;
+  }
+
+  .transition-container:hover .blok:nth-child(1){
+    border-radius:50%;
+  }
+
+  .blok:nth-child(1){
+    background-color:plum;
+  }
+
+  .blok:nth-child(2){
+    transition-timing-function: ease;
+  }
+
+  .blok:nth-child(3){
+    transition-timing-function: ease-in;
+  }
+
+  .blok:nth-child(4){
+    transition-timing-function: ease-in-out;
+  }
+
+  .blok:nth-child(5){
+    transition-timing-function: ease-in-out;
+  }
+
+
+
+
+
+  
+

@@ -1,0 +1,34 @@
+.flex-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    border: 1px solid black;
+    width: 800px;
+    height: 500px;
+  }
+
+  .flex-container>div {
+    border: 1px solid black;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    position: inherit;
+    align-self: inherit;
+  }
+
+  h1 {
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 25%;
+    left: 40%;
+  }
+
+  .flex-container:active {
+    justify-content: center;
+    align-self: center;
+    position: absolute;
+  }

@@ -1,0 +1,15 @@
+div{
+    width: 500px;
+    height:300px;
+    background-image: url("https://miro.medium.com/max/3150/1*zM_VLDNWkz816tz9xiWkPQ.jpeg");
+    background-repeat: no-repeat;
+    padding: 10px;
+    border: 1px solid black;
+    
+    }
+
+
+    
+p::before {
+  content: "Read this -";
+    }

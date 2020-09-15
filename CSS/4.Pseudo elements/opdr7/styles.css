@@ -1,0 +1,20 @@
+div {
+	position: absolute;
+    width: 150px;
+	height:150px;
+    display: block;
+    background-image: url("https://i.pinimg.com/originals/a6/dc/a0/a6dca0068cd5405c7ffbed1c6c4e25f2.gif");
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    margin:30px;
+}
+
+div:nth-child(1){
+transform: rotate(33deg);
+}
+div:nth-child(2){
+transform: rotate(66deg);
+}
+div:nth-child(3){
+transform: rotate(99deg);
+}

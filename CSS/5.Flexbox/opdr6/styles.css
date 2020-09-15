@@ -1,0 +1,49 @@
+
+.container {
+  display: flex;
+  height: 125px;
+  background-color: #fffacd;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.row1 {
+    background-color: #a9affd;
+    width: 800px;
+    margin: 2px;
+    height: 35px;
+}
+    
+
+.row2 {
+  background-color: #a9affd;
+  width: 300px;
+  margin: 2px;
+  height: 35px;
+}
+    
+.row3 {
+  background-color: #a9affd;
+  width: 125px;
+  margin: 2px;
+  height: 35px;
+}
+.row4 {
+  background-color: #a9affd;
+  width: 150px;
+  margin: 2px;
+  height: 35px;
+}
+.row5 {
+  background-color: #a9affd;
+  width: 525px;
+  margin: 2px;
+  height: 35px;
+}
+.row6 {
+  background-color: #a9affd;
+  width: 50px;
+  margin: 2px;
+  height: 35px;
+}

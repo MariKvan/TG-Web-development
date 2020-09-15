@@ -1,0 +1,32 @@
+.box{
+    background-color: #90ee90;  
+    margin:10px;
+    padding:30px;
+}
+
+.flexstart{
+    display: flex;
+    background: #ffffe0;
+    justify-content: flex-start;
+}
+
+.centerspace{
+    display: flex;
+    background: #ffffe0;
+    justify-content: center;
+   
+
+}
+
+.spacebetween{
+    display: flex;
+    background: #ffffe0;
+    justify-content: space-between;
+}
+
+
+.flexend{
+    display: flex;
+    background: #ffffe0;
+    justify-content: flex-end;
+}

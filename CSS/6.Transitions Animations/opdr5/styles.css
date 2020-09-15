@@ -1,0 +1,30 @@
+.box{
+  position: relative;
+  border: 1px solid black;
+  background-image: url(https://media.giphy.com/media/gHTX2ZC4IuDgQ/giphy.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: center;
+  width: 300px;
+  height: 300px;
+  }
+  
+  .boxfront {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: inherit;
+    background: pink;
+    transition: 1s linear;
+    top: 1s linear;
+    left: 1s linear;
+    background-color: 1s linear;
+  }
+  
+  .boxfront:hover {
+    top: 100px;
+    left: 100px;
+    background-color: paleturquoise;
+    transform: rotate(35deg);
+  }

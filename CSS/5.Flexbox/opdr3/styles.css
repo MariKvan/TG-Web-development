@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    background: #ffffe0;
+    
+   
+
+}
+.box{
+    background-color: #90ee90;  
+    margin:10px;
+    padding:30px;
+    
+}
+
+.box2{
+    flex-grow: 1;
+    background-color: #90ee90;  
+    margin:10px;
+    padding:30px;
+    text-align: center;
+    
+}
