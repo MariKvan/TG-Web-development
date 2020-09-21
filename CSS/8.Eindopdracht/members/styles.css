@@ -1,0 +1,93 @@
+body{
+    background-color:#fbf8f3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: small;
+
+}
+
+h1, h2{
+    text-align: center;
+    color:#4b86cb;
+}
+
+.members tr:nth-child(odd){
+    background-color:#a0aec0;
+    display: flex;
+    justify-content: center;
+}
+
+.members tr>td{
+    width: 400px;
+    border: 1px solid #fbf8f3;
+}
+
+.members tr>th{
+    width:400px;
+}
+
+.members{
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+}
+
+.members tr:hover{
+    background-color:#C5DEEA;
+}
+    
+
+
+input{
+    background-color:#C5DEEA;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+}
+
+.container_info{
+  display: flex;
+  justify-content: center;
+}
+
+.container_info > div {
+  display: flex;
+  flex-wrap: wrap;
+  width:900px;
+}
+
+.container_info > div > div {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container_info > div > div:nth-child(1){width: 39%;}
+.container_info > div > div:nth-child(2){width: 39%;}
+.container_info > div > div:nth-child(3){width: 10%;}
+
+.container_info > div > div:nth-child(4){width: 20%;}
+.container_info > div > div:nth-child(5){width: 40%;}
+.container_info > div > div:nth-child(6){width: 28%;}
+
+.container_info > div > div:nth-child(7){width: 93%;}
+
+.container_info > div > div:nth-child(8){width: 20%;}
+.container_info > div > div:nth-child(9){width: 40%;}
+.container_info > div > div:nth-child(10){width:28%;}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .members tr>td{
+    width: 100px;
+    }
+    .members tr{
+    width: 310px;
+    }
+
+    .members tr>th{
+    display: flex;
+}
+
+}
