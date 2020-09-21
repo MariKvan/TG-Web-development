@@ -38,7 +38,7 @@ nav a:hover{
     min-height: 400px;
     position: relative;
     filter: brightness(85%);
-    z-index: -;
+    z-index: 0;
     
 }
 
@@ -228,3 +228,38 @@ td>a{
     background:#4c0404;
     color: white;
   }
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .banner > div {
+        left: 30%;
+    }
+  
+    .display{
+      flex-direction: column;
+      }
+  
+    .menu{
+      flex-direction: column;
+      justify-content:center;
+      margin-right:20%;
+      }
+    .kok > img{
+    opacity:0; 
+    
+    }
+  
+    footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    
+        
+    }
+
+    footer > div{
+        margin-top: 10%;
+        margin-bottom:15%;
+    }
+}
