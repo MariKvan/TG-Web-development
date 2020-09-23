@@ -13,6 +13,7 @@ nav{
     height:50px;
     background-color:#4c0404;
     top:0;
+    z-index:1;
 }
 
 nav a{
@@ -38,7 +39,7 @@ nav a:hover{
     min-height: 400px;
     position: relative;
     filter: brightness(85%);
-    z-index: -1;
+    
     
 }
 
