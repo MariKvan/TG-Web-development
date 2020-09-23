@@ -1,0 +1,13 @@
+button {
+  background-color: red;
+}
+
+button:hover {
+  background-color: pink;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+}
+/*# sourceMappingURL=style.css.map */
