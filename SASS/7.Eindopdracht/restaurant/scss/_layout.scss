@@ -1,0 +1,147 @@
+body{
+    background-color:#81807f;
+    font-family: 'Merriweather', serif;
+    margin:0px;
+    
+.banner{
+    background-image: url(/TG-Web-development/CSS/IMG/cooking.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 400px;
+    position: relative;
+    filter: brightness(85%);
+
+    div {
+    color:$textcolor;
+    height:200px;
+    width:200px;
+    position: absolute;
+    left: 60%;
+    font-size:large;
+    font-weight:bolder;
+
+.title_align{
+    text-align: center;
+
+.display{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+#image{
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+
+
+
+#gerecht{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    align-items: center;
+
+	div:nth-child(2){
+    	width:250px;
+    	display: flex;
+    	justify-content: space-between;
+	}
+
+	div:nth-child(4){
+    	width:250px;
+    	display: flex;
+    	flex-direction: row-reverse;
+    }
+    
+
+.container_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    
+
+.kok{
+    width:350px;
+	img{
+    	width: 100%;
+    	max-width: 350px;
+    	margin-left:80px;  
+    
+        .menu{
+            display: flex;
+            flex-direction: row;
+            margin-right:250px;
+        
+            div{
+                display: flex;
+                justify-content: space-evenly;
+                margin-bottom: 50px;
+                flex-direction: column;
+                width: 350px;
+                margin-left: 5%;
+
+                div{
+                    width:100%;
+
+                    div {
+                        display: flex;
+                        justify-content: space-between;
+                        height: 55px;
+
+                        p {
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+            
+        }
+    }
+}
+} 
+}
+}
+}
+}
+}
+}      
+}
+
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .banner > div {
+        left: 30%;
+    }
+  
+    .display{
+      flex-direction: column;
+      }
+  
+    .menu{
+      flex-direction: column;
+      justify-content:center;
+      margin-right:20%;
+      }
+    .kok > img{
+    opacity:0; 
+    }
+  
+    footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    
+	div{
+    margin-top: 10%;
+    margin-bottom:15%;
+    	}
+    }
+  }

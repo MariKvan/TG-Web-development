@@ -1,0 +1,71 @@
+@import"./scss/colors";
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background:$primarycolor;
+    color:$text-color;
+	div{
+    	height: 100px;
+    	width: 300px;
+    	margin-bottom: 10%;
+    	margin-top: 3%;
+	}
+
+
+tr{
+    vertical-align: bottom;
+}
+
+td>a{
+    text-decoration: none;
+    color:$text-color;
+}
+
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 15px;
+    border: 1px solid white;
+
+	&:hover {
+      	opacity: 0.7;
+  	}
+  }
+  
+  .fa-facebook {
+    background:$primarycolor;
+    color:$text-color;
+  }
+  
+  .fa-twitter {
+    background:$primarycolor;
+    color:$text-color;
+  }
+
+  .fa-instagram {
+    background:$primarycolor;
+    color:$text-color;
+  }
+
+    footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+	div{
+        margin-top: 10%;
+        margin-bottom:15%;
+    	}
+    }
+  }
+
+
+
+  
