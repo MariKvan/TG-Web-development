@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>conditions1</title>
+    <title>conditions9</title>
 </head>
 
 <body>
@@ -22,15 +22,16 @@
             
             let i = document.getElementById("number").value;
             
-            if (i == 3) {
-                document.getElementById("label").innerHTML = "RIGHT";
+            if (i > 5 && i < 10) {
+                document.getElementById("label").innerHTML = "Het ingevoerde getal is tussen 5 en 10";
 
             }
             
             else {
-                document.getElementById("label").innerHTML = "WRONG";
+                document.getElementById("label").innerHTML = "";
             }
         }
+        
     </script>
 
 </body>

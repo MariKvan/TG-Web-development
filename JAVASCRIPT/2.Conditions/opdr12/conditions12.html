@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>conditions1</title>
+    <title>conditions12</title>
 </head>
 
 <body>
@@ -19,18 +19,20 @@
     <script>
 
         function checkNumber() {
-            
-            let i = document.getElementById("number").value;
-            
-            if (i == 3) {
-                document.getElementById("label").innerHTML = "RIGHT";
 
-            }
+            let i = document.getElementById("number").value;
+
+            if (i > 30 && i < 35 || i > 40 && i < 45) {
+                document.getElementById("label").innerHTML = "“het getal is tussen 30 en 35 of het getal is tussen 40 en 45.";
+
+            } 
             
             else {
-                document.getElementById("label").innerHTML = "WRONG";
+                document.getElementById("label").innerHTML = "";
             }
         }
+    
+        
     </script>
 
 </body>

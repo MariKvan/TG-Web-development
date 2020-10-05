@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>conditions1</title>
+    <title>conditions10</title>
 </head>
 
 <body>
@@ -15,20 +15,20 @@
     <div>
         <p id="label"></p>
     </div>
-
+    
     <script>
 
         function checkNumber() {
             
             let i = document.getElementById("number").value;
             
-            if (i == 3) {
-                document.getElementById("label").innerHTML = "RIGHT";
+            if (i >=13 && i <= 20) {
+                document.getElementById("label").innerHTML = "Het ingevoerde getal is gelijk aan 13 of groter dan 13 en is gelijk aan 20 of kleiner dan 20.";
 
             }
             
             else {
-                document.getElementById("label").innerHTML = "WRONG";
+                document.getElementById("label").innerHTML = "";
             }
         }
     </script>
