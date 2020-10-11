@@ -1,11 +1,11 @@
-@import"./scss/colors";
+@import"colors";
 
 footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background:$primarycolor;
-    color:$text-color;
+    color:$textcolor;
 	div{
     	height: 100px;
     	width: 300px;
@@ -20,7 +20,7 @@ tr{
 
 td>a{
     text-decoration: none;
-    color:$text-color;
+    color:$textcolor;
 }
 
 
@@ -41,17 +41,17 @@ td>a{
   
   .fa-facebook {
     background:$primarycolor;
-    color:$text-color;
+    color:$textcolor;
   }
   
   .fa-twitter {
     background:$primarycolor;
-    color:$text-color;
+    color:$textcolor;
   }
 
   .fa-instagram {
     background:$primarycolor;
-    color:$text-color;
+    color:$textcolor;
   }
 
     footer{
