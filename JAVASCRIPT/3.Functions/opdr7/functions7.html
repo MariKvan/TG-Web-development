@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>example parameters</h1>
+
+    <button onclick="example(1, 'hoi', 1414, 242)">click</button>
+
+    <div id="exampleText"></div>
+    <p>Een expliciete parameter met altijd aangegeven worden anders werkt de functie nie en krijg je een error
+        bij een rest parameter hoeft niet per see ingevuld te worden en gebruikt te worden in de functie
+    </p>
+
+    <script>
+        example = (i, j, ...rest) => {
+            let x = document.getElementById("exampleText");
+            let text = "the first parameter is " + i + " the second parameter is " + j + " the rest parameters are " + rest;
+            
+            x.innerHTML = text;
+        }
+    </script>
+
+</body>
+
+</html>

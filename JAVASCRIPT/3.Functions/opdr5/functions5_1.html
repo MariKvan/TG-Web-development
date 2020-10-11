@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>random names</h1>
+
+    <button onclick="randomNames(1, 8)">click</button>
+
+    <div id="famousNames"></div>
+
+
+    <script>
+        function randomNames(min, max) {
+            let x = document.getElementById("famousNames");
+            let text = "";
+
+            i = Math.round(Math.random() * (max - min) ) + min;
+            
+            switch (i) {
+                case 1:
+                    text = "John";
+                    break;
+                case 2:
+                    text = "Oly";
+                    break;
+                case 3:
+                    text = "Mo";
+                    break;
+                case 4:
+                    text = "Hendrik";
+                    break;
+                case 5:
+                    text = "Tony";
+                    break;
+                case 6:
+                    text = "Irus";
+                    break;
+                case 7:
+                    text = "Jan";
+                    break;
+                case 8:
+                    text = "Peter";
+                    break;
+                default:
+                    text = "error";
+                    break;
+            }
+                x.innerHTML = text;
+        }
+    </script>
+
+</body>
+
+</html>

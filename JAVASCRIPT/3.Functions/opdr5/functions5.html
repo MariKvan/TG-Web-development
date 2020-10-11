@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>known names</h1>
+
+    <input type="text" name="text" id="text">
+
+    <button onclick="knownNames()">click</button>
+
+    <div id="famousNames"></div>
+
+
+    <script>
+        function knownNames() {
+            let i = document.getElementById("text").value;
+            let x = document.getElementById("famousNames");
+            let text = "";
+
+
+            if (
+                i=="Mo"||
+                i=="John"||
+                i=="Olly"||
+                i=="Hendrik"||
+                i=="Tony"
+                ){
+                    text="the name " + i + " is famous";
+                }else{
+                    text= "the name is not famous"
+                }
+                x.innerHTML = text;
+        }
+    </script>
+
+</body>
+
+</html>
