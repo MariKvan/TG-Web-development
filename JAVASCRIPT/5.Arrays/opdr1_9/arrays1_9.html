@@ -30,7 +30,39 @@ initial-scale=1.0">
         console.log("there is no strawberry but there is "+ Myfavefruit[1]);
 
         //opdr5 
+        i = Numbers[Math.round(Math.random() % 10)];
         
+        console.log(Myfavefruit[i]);
+
+        //opdr6
+        Myfavefruit.push("orange");
+        console.log(Myfavefruit);
+
+        Myfavefruit.pop();
+        console.log(Myfavefruit);
+     
+        i=Myfavefruit.slice(1,3);
+        console.log(i);
+
+        Myfavefruit.shift();
+        console.log(Myfavefruit);
+
+        //opdr7
+        Myfavefruit=["granny smith","raspberry","blueberry","banana","figs"];
+        console.log(Myfavefruit.length);
+
+        //opdr8
+        Myfavefruit[2]="strawberry";
+        console.log(Myfavefruit);
+
+        //opdr9
+        let a=Myfavefruit[0];
+
+        Myfavefruit[0]=Myfavefruit[1];
+        Myfavefruit[1]=a;
+        console.log(Myfavefruit);
+
+
     </script>
 </body>
 
