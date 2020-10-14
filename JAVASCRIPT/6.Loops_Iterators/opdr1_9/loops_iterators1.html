@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+
+<body>
+
+    <div id="answer"></div>
+    <script>
+        const sports = ["voetbal", "basketbal", "volleybal", "hockey", "honkbal", "zwemmen", "kortbal"]
+
+        for (i = 0; i < sports.length; i++) {
+            console.log(sports[i]);
+        }
+
+        //opdr2
+        for (i = 0; i < 10; i++) {
+
+            if (i % 2 === 0) {
+                console.log(i);
+            }
+        }
+
+
+        //opdr3
+        for (i = 0; i < sports.length; i++) {
+
+            if (i % 2 === 0) {
+                console.log(sports[i]);
+            }
+        }
+
+        //opdr4
+
+        let x = 0;
+        while (x < sports.length) {
+            console.log(sports[x]);
+            x++;
+
+
+        }
+
+        //opdr5
+
+        for (const k in sports) {
+
+            console.log(sports[k]);
+        }
+
+        //opdr6
+
+        for (const k of sports) {
+
+            console.log(sports[k]);
+        }
+
+        //opdr7
+
+        let d = 1;
+        while (d < 4) {
+
+            for (i = 1; i < 11; i++) {
+                console.log(i * d);
+            }
+
+            d++;
+        }
+
+
+
+        //opdr8
+
+        //opdr9
+
+
+
+    </script>
+</body>
+
+</html>
