@@ -16,6 +16,7 @@
         for (i = 0; i < sports.length; i++) {
             console.log(sports[i]);
         }
+        console.log("opdr2");
 
         //opdr2
         for (i = 0; i < 10; i++) {
@@ -24,6 +25,7 @@
                 console.log(i);
             }
         }
+        console.log("opdr3");
 
 
         //opdr3
@@ -33,7 +35,7 @@
                 console.log(sports[i]);
             }
         }
-
+        console.log("opdr4");
         //opdr4
 
         let x = 0;
@@ -43,21 +45,21 @@
 
 
         }
-
+        console.log("opdr5");
         //opdr5
 
         for (const k in sports) {
 
             console.log(sports[k]);
         }
-
+        console.log("opdr6");
         //opdr6
 
         for (const k of sports) {
 
             console.log(sports[k]);
         }
-
+        console.log("opdr7");
         //opdr7
 
         let d = 1;
@@ -71,11 +73,33 @@
         }
 
 
-
+console.log("opdr8");
         //opdr8
-
+        let a = 0, b = 1, c = 1;
+        for(p=0; p<50; p++){
+            c = a + b;
+            a = b;
+            b = c;
+            console.log(c);
+        }
+        console.log("opdr9");
+        
         //opdr9
+        const bubblesort = [2, 7, 5, 10, 4, 9, 3, 1, 8, 6];
+        
+        for(j = 0; j < bubblesort.length; j++){
+            for(e = 0; e < bubblesort.length; e++){
+                if(  bubblesort[e]< bubblesort[e+1]){
+                    console.log(bubblesort);
+                    
+                    let temp = bubblesort[e];
+                    bubblesort[e] = bubblesort[e+1];
+                    bubblesort[e+1] = temp;
+                }
+            }
+        }
 
+        
 
 
     </script>
