@@ -9,8 +9,92 @@
 
 <body>
     <div id="clubs" class="clubs"></div>
+
     <script>
-    // start assignments 
+        // opdr 1
+        const club = function (name, type, amount) {
+            this.name = name;
+            this.type = type;
+            this.amount = amount;
+        }
+
+        const clubFoodieballs = new club("foodyballs", "voetbal", 1);
+        const clubSlam = new club("SlamDunk", "basketball", 2);
+        const clubREEE = new club("REEE", "drama", 3);
+        const clubTableFlipping = new club("tableFlippers", "tableflipping", 4);
+
+        // opdr 2
+        const contactInfo = function (adress, tel, person) {
+            this.adress = adress;
+            this.tel = tel;
+            this.person = person;
+        }
+
+        const Kim = new contactInfo("bakkerbaardenstraat 427", "069111112", "Kim Sing");
+
+        // opdr 3
+        const lijstClub = [clubFoodieballs, clubSlam, clubREEE, clubTableFlipping];
+
+        for (const i in lijstClub) {
+            console.log(lijstClub[i].name);
+        }
+
+        // opdr 4
+        console.log(" ")
+        console.log("opdr 4")
+        const Person = function(name, age) {
+            this.name = name;
+            this.age = age;
+        }
+        const persons = [
+            new Person("Jan", 24),
+            new Person("Klaas", 15),
+            new Person("Yanis", 42),
+            new Person("Rupel", 55),
+            new Person("Hendrik", 32),
+            new Person("Mono", 28),
+            new Person("West", 23)
+        ]
+        
+        persons.sort(function(a, b){return a.age - b.age});
+        for (const k in persons) {
+            console.log(persons[k].name + " " + persons[k].age);
+        }
+
+        // opdr 5
+        console.log(" ");
+        console.log("opdr 5");
+        let name = "Rohan";
+        let age = "15";
+        let place = "amsterdam";
+        const Pim = {name, age, place};
+        console.log("name:" + Pim.name + " age:" + Pim.age + " place:" + Pim.place);
+        
+        // opdr 6
+        console.log(" ");
+        console.log("opdr 6");
+        class Persona {
+            constructor(name, age){
+                this.name = name;
+                this.age = age;
+            }
+        }
+
+        const personsa = [
+            new Person("Jan", 24),
+            new Person("Klaas", 15),
+            new Person("Yanis", 42),
+            new Person("Rupel", 55),
+            new Person("Hendrik", 32),
+            new Person("Mono", 28),
+            new Person("West", 23)
+        ]
+
+        for (const o in personsa) {
+            console.log(personsa[o].name + " " + personsa[o].age);
+        }
+
+         
     </script>
 </body>
 
